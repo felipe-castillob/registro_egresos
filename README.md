@@ -1,9 +1,9 @@
 # Registro Egresos
-Formulario Usuario path: usuarios
-Formulario Egreso path: egresos
-Obtener Usuario path: obtener-usuarios
-Obtener Egresos path: obtener-egresos
-Obtener Egresos por Usuario path: obtener-egresos-usuario
+### Formulario Usuario path: usuarios
+### Formulario Egreso path: egresos
+### Obtener Usuario path: obtener-usuarios
+### Obtener Egresos path: obtener-egresos
+### Obtener Egresos por Usuario path: obtener-egresos-usuario
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
