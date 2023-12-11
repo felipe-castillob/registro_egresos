@@ -8,7 +8,7 @@ import { VerEgresosUsuarioComponent } from './componentes/ver/egresos-usuario/eg
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'usuarios',
     component: UsuariosComponent
   },
   {
