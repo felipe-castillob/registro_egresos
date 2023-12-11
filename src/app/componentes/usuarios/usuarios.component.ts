@@ -13,11 +13,11 @@ export class UsuariosComponent implements OnInit {
   formulario:any;
   registro:any[] = [];
   registro_enviar = {
-    nombre:null,
-    apellido:null,
-    rut:null,
-    correo:null,
-    password:null
+    nombre: String,
+    apellido: String,
+    rut: { type:String,default: null },
+    correo: String,
+    password: String
   }
   registros:any;
   constructor(
@@ -50,7 +50,7 @@ export class UsuariosComponent implements OnInit {
       (response:any) => {
         this.registro = response.registro;
         console.log("Los datos recibidos son")
-        console.log(this.registro)
+        console.log(this.registro_enviar)
       }, error =>{
         console.log(error)
       }

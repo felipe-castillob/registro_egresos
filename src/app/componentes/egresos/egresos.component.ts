@@ -12,9 +12,9 @@ export class EgresosComponent implements OnInit {
   formulario:any;
   registro:any[] = [];
   registro_enviar = {
-    descripcion:null,
-    precio:null,
-    id_usuario:null,
+    descripcion: String,
+    precio: Number,
+    id_usuario:Object,
   }
   registros:any;
   constructor(
@@ -43,7 +43,7 @@ export class EgresosComponent implements OnInit {
       (response:any) => {
         this.registro = response.registro;
         console.log("Los datos recibidos son")
-        console.log(this.registro)
+        console.log(this.registro_enviar)
       }, error =>{
         console.log(error)
       }
@@ -56,10 +56,10 @@ export class EgresosComponent implements OnInit {
     (response: any) => {
       console.log("Respuesta de obtener_egresoss:", response);
       this.registros = response.egresos;
-      console.log("Registros obtenidos:", this.registros);
+      console.log("Egresos obtenidos:", this.registros);
     },
     (error) => {
-      console.log("Error al obtener registros:", error);
+      console.log("Error al obtener egresos:", error);
     }
   );
 }
