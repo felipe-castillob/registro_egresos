@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-
 import { environment } from '../../environments/environment'
 
 @Injectable({
@@ -27,5 +26,9 @@ export class FormularioService {
   obtener_egresos(){
     return this.http.get(`${this.url_backend+'/egreso/obtener-egresos' }`)
 
+  }
+
+  obtener_egresos_usuario(id: string) {
+    return this.http.get(`${this.url_backend}/egreso/obtener-egresos-usuario/${id}`);
   }
 }
