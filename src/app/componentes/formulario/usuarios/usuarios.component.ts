@@ -27,10 +27,10 @@ export class UsuariosComponent implements OnInit {
   ngOnInit(): void {
     this.formulario = this.fb.group({
       nombre:['',[Validators.required]],
-      apellido:[''],
-      rut:[''],
-      correo:[''],
-      password:['']
+      apellido:['',[Validators.required]],
+      rut:['',[Validators.required]],
+      correo:['',[Validators.required]],
+      password:['',[Validators.required]]
     });
   }
 

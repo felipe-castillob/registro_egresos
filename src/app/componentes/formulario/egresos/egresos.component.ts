@@ -24,8 +24,8 @@ export class EgresosComponent implements OnInit {
   ngOnInit(): void {
     this.formulario = this.fb.group({
       descripcion:['',[Validators.required]],
-      precio:[''],
-      id_usuario:['']
+      precio:['',[Validators.required]],
+      id_usuario:['',[Validators.required]]
     });
   }
 
