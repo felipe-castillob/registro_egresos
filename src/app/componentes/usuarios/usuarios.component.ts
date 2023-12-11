@@ -9,6 +9,7 @@ import { FormularioService } from 'src/app/servicios/formulario.service';
 })
 export class UsuariosComponent implements OnInit {
 
+  //tipado
   formulario:any;
   registro:any[] = [];
   registro_enviar = {
