@@ -22,30 +22,30 @@
         </div>
         <!-- FIN INPUT PARA Nombre-->
 
-        <!-- INPUT PARA Apellido-->
+        <!-- INPUT PARA Precio-->
         <div class="form-group">
             <div>
                 <label>precio</label>
-                <!-- INPUT para el campo apellido-->
+                <!-- INPUT para el campo precio-->
                 <input
                     type="text"
-                    placeholder="Ingresa tu apellido"
+                    placeholder="Ingresa un Precio"
                     formControlName ="precio"
                     required
                 >
-                <!-- Mostrar el error para el campo apellido-->
+                <!-- Mostrar el error para el campo Precio-->
                 <small *ngIf=" formularioReactivo.precio?.errors?.required && formularioReactivo.precio.touched ">
-                    El nombre es requerido
+                    El precio es requerido
                 </small>
             </div>
         </div>
-        <!-- FIN INPUT PARA Apellido-->
+        <!-- FIN INPUT PARA Precio-->
 
-        <!-- INPUT PARA Apellido-->
+        <!-- INPUT PARA id_usuario-->
         <div class="form-group">
             <div>
                 <label>id usuario</label>
-                <!-- INPUT para el campo apellido-->
+                <!-- INPUT para el campo id usuario-->
                 <input
                     type="text"
                     placeholder="Ingresa tu id_usuario"
@@ -58,7 +58,7 @@
                 </small>
             </div>
         </div>
-        <!-- FIN INPUT PARA Apellido-->
+        <!-- FIN INPUT PARA id_usuario-->
 
         <!-- BOTÓN-->
         <div class="form-group">

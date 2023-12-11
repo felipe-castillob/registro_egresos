@@ -35,7 +35,7 @@
                 >
                 <!-- Mostrar el error para el campo apellido-->
                 <small *ngIf=" formularioReactivo.apellido?.errors?.required && formularioReactivo.apellido.touched ">
-                    El nombre es requerido
+                    El apellido es requerido
                 </small>
             </div>
         </div>
@@ -64,7 +64,7 @@
         <div class="form-group">    
             <div>
                 <label>Correo</label>
-                <!-- INPUT para el campo nombre-->
+                <!-- INPUT para el campo correo-->
                 <input
                     type="text"
                     placeholder="Ingresa Valor Correo"
@@ -86,7 +86,7 @@
                 <!-- INPUT para el campo Password-->
                 <input
                     type="text"
-                    placeholder="Ingresa Valor Campo1"
+                    placeholder="Ingresa Valor Passowrd"
                     formControlName ="password"
                     required
                 >
