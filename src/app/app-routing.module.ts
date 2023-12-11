@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
-import { EgresosComponent } from './componentes/egresos/egresos.component';
+import { UsuariosComponent } from './componentes/formulario/usuarios/usuarios.component';
+import { EgresosComponent } from './componentes/formulario/egresos/egresos.component';
 
 const routes: Routes = [
   {

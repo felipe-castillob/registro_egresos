@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
+import { UsuariosComponent } from './componentes/formulario/usuarios/usuarios.component';
 
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 import { HttpClientModule } from '@angular/common/http';
-import { EgresosComponent } from './componentes/egresos/egresos.component';
+import { EgresosComponent } from './componentes/formulario/egresos/egresos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsuariosComponent,
-    EgresosComponent,
+    EgresosComponent
   ],
   imports: [
     BrowserModule,
